@@ -21,6 +21,7 @@ repositories {
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
     compile group: 'org.eclipse.paho', name: 'org.eclipse.paho.client.mqttv3', version: '1.2.0'
+    compile group: 'org.eclipse.leshan', name: 'leshan-client-cf', version: '1.0.0-M5'
 }
 
 compileKotlin {
